@@ -17,9 +17,9 @@ func _input(event):
 			if event.is_action_pressed("ui_accept") and active:
 				can_run = false
 				get_tree().paused = true
-				var dialog = Dialogic.start('sampleText')
+				var dialog = Dialogic.start('word_1')
 				dialog.pause_mode = Node.PAUSE_MODE_PROCESS
-				dialog.connect('sampleText', self, 'unpause')
+				dialog.connect('word_1', self, 'unpause')
 				get_tree().paused = false
 				add_child(dialog)
 
@@ -28,11 +28,11 @@ func unpause(timeline_name):
 
 # check if body has entered/exited
 func _on_NPC_body_entered(body):
-	if body.name == 'Player':
-		active = true
+	if can_run: # isn't circled if word is changed
+		if body.name == 'Player':
+			active = true
 func _on_NPC_body_exited(body):
 	if body.name == 'Player':
 		active = false
-
 
 

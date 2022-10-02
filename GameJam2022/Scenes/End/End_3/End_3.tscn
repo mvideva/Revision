@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/CutScenes/3e4 sprite.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Scene_1/S1_Start/Story.gd" type="Script" id=2]
+
+[sub_resource type="Animation" id=1]
+length = 0.001
+
+[sub_resource type="Animation" id=2]
+resource_name = "Story"
+length = 0.9
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2 ]
+}
+
+[node name="End_True" type="Node2D"]
+
+[node name="Story" type="KinematicBody2D" parent="."]
+show_behind_parent = true
+z_as_relative = false
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Story"]
+position = Vector2( 1253, 1005 )
+texture = ExtResource( 1 )
+hframes = 3
+frame = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Story"]
+anims/RESET = SubResource( 1 )
+anims/Story = SubResource( 2 )
