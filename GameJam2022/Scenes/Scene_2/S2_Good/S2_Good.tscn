@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Assets/1e4sprite.png" type="Texture" id=1]
-[ext_resource path="res://Scenes/End_True/Story.gd" type="Script" id=2]
+[ext_resource path="res://Assets/CutScenes/2e2 sprite.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Scene_1/S1_Start/Story.gd" type="Script" id=2]
 
 [sub_resource type="Animation" id=1]
 length = 0.001

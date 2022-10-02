@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/sampleWord.png" type="Texture" id=1]
-[ext_resource path="res://Scenes/Samples/Word.gd" type="Script" id=2]
+[ext_resource path="res://SampleScenes/Word.gd" type="Script" id=2]
 [ext_resource path="res://Assets/Circle_(transparent).png" type="Texture" id=3]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=4]
 
