@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/wind-chimes-1-SBA-300283700.mp3-8bba63b84788c9972fc4c3a7311c0cc2.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/wind-chimes-1-SBA-300283700.mp3"
+dest_files=[ "res://.import/wind-chimes-1-SBA-300283700.mp3-8bba63b84788c9972fc4c3a7311c0cc2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

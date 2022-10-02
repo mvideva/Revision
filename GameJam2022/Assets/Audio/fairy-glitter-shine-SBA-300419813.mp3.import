@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/fairy-glitter-shine-SBA-300419813.mp3-648b576383252c0f426d86c0caa1a8df.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/fairy-glitter-shine-SBA-300419813.mp3"
+dest_files=[ "res://.import/fairy-glitter-shine-SBA-300419813.mp3-648b576383252c0f426d86c0caa1a8df.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

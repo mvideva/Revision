@@ -21,11 +21,31 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/wind-chimes-1-SBA-300283700.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
 			"file": "",
 			"volume": 0
 		},
 		{
-			"choice": "1",
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hm... maybe this would have been better..."
+		},
+		{
+			"choice": "2",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -36,8 +56,27 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/wind-chimes-1-SBA-300283700.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
 			"file": "",
 			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hm... maybe this would have been better..."
 		},
 		{
 			"event_id": "dialogic_013"
